@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "TIL Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Vanessa Cheong"
+description              : "TIL Blog"
 url                      : "https://i2sign.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,11 +94,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Vanessa Cheong"
+  avatar           : "KakaoTalk_Photo_2021-01-31-21-38-20.jpeg"
+  bio              : "Wanderlust"
+  location         : "Seoul, Korea"
+  email            : tomoyo519@icloud.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
