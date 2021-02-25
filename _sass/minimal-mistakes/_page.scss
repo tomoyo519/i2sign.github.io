@@ -32,14 +32,14 @@ body {
 
 .initial-content,
 .search-content {
-  flex: 1 0 auto;
+  flex: 1 auto;
 }
 
 .page {
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0;
   }
 
   @include breakpoint($x-large) {
