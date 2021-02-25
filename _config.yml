@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 50
+    num_posts            : 99999
     colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -99,7 +99,7 @@ author:
   bio              : "Wanderlust"
   location         : "Seoul, Korea"
   email            : tomoyo519@icloud.com
-  instagram        : https://www.instagram.com/i2sign/
+  instagram        : /i2sign/
   github           : /i2sign
   
   links:
