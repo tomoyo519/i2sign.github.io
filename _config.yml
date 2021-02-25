@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            :  150
+    num_posts            : 99
     colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -100,7 +100,7 @@ author:
   location         : "Seoul, Korea"
   email            : tomoyo519@icloud.com
   instagram        : http://instagram.com/i2sign
-  GitHub           : http://github.com/i2sign
+  github           : http://github.com/i2sign
   
   links:
     - label: "Email"
@@ -276,10 +276,9 @@ defaults:
   - scope:
       path: ""
       type: post
-    values:
+      values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
