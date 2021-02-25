@@ -38,8 +38,8 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            :  99999999
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :  150
+    colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -99,7 +99,8 @@ author:
   bio              : "Wanderlust"
   location         : "Seoul, Korea"
   email            : tomoyo519@icloud.com
-  instagram        : http://instagram.com/tomoyo519
+  instagram        : http://instagram.com/i2sign
+  GitHub           : http://github.com/i2sign
   
   links:
     - label: "Email"
@@ -274,7 +275,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: single
+      type: post
     values:
       layout: single
       author_profile: true
