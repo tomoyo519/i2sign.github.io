@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 99
+    num_posts            : 50
     colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -99,7 +99,7 @@ author:
   bio              : "Wanderlust"
   location         : "Seoul, Korea"
   email            : tomoyo519@icloud.com
-  instagram        : http://instagram.com/i2sign
+  instagram        : https://www.instagram.com/i2sign/
   github           : http://github.com/i2sign
   
   links:
@@ -211,7 +211,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 999 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
