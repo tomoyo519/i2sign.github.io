@@ -277,8 +277,8 @@ defaults:
       path: ""
       type: post
       values:
-      layout: 
+      layout: single
       author_profile: true
-      comments:  false
+      comments:  true
       share: true
       related: true
