@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "TIL Blog"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "#Carpediem"
 name                     : "Vanessa Cheong"
 description              : "TIL Blog"
 url                      : "https://i2sign.github.io"
@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "custom" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            :  99999999
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -99,6 +99,8 @@ author:
   bio              : "Wanderlust"
   location         : "Seoul, Korea"
   email            : tomoyo519@icloud.com
+  instagram        : http://instagram.com/tomoyo519
+  
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -272,7 +274,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: single
     values:
       layout: single
       author_profile: true
