@@ -28,7 +28,6 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
           flex-direction: column;
-  width : 100%
 }
 
 .initial-content,
@@ -39,8 +38,8 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: 100%;
-    padding-right : 10
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
